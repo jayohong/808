@@ -1,4 +1,5 @@
 package ch1_javaBasic;
+//Ans: C
 
 public class ex14 {
 
@@ -12,7 +13,7 @@ public class ex14 {
 Given:
 
 MainTest.java
-public class MainTest {
+public class MainTest {    //方法多載
  
     public static void main(int[] args) {
         System.out.println("int main " + args[0]);
@@ -22,7 +23,7 @@ public class MainTest {
         System.out.println("Object main " + args[0]);
     }
  
-    public static void main(String[] args) {
+    public static void main(String[] args) {     //main方法引數必須是string
         System.out.println("String main " + args[0]);
     }
 }

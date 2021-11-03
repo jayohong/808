@@ -1,4 +1,5 @@
 package ch1_javaBasic;
+//ans AC
 
 public class ex21 {
 
@@ -25,18 +26,17 @@ If the value of the qty variable is between 80 and 90, discount = 0.2
 Which two code fragments can be independently placed at line n1 to meet the requirements?
 
 A.
-
 if (qty >= 90) {discount = 0.5; }
 if (qty > 80 && qty < 90) {discount = 0.2; }
-B.
 
+B.
 discount = (qty >= 90) ? 0.5 : 0;
 discount = (qty > 80) ? 0.2 : 0;
+
 C.
-
 discount = (qty >= 90) ? 0.5 : (qty > 80) ? 0.2 : 0;
-D.
 
+D.
 if (qty > 80 && qty < 90) {
     discount = 0.2;
 } else {

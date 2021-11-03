@@ -1,5 +1,5 @@
 package ch1_javaBasic;
-
+//Ans B
 public class ex12 {
 	 private int x = 0;
 	    private int y = 0;
@@ -40,13 +40,13 @@ public class Access {
         accApp.printThat(3, 4);
     }
  
-    public void printThis(int x, int y) {
+    public void printThis(int x, int y) {  //this.x this.y並沒有被修改到
         x = x;
         y = y;
         System.out.println("x:" + this.x + " y:" + this.y);
     }
  
-    public void printThat(int x, int y) {
+    public void printThat(int x, int y) {  //
         this.x = x;
         this.y = y;
         System.out.println("x:" + this.x + " y:" + this.y);

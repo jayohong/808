@@ -1,4 +1,5 @@
 package ch1_javaBasic;
+//Ans:A
 
 public class ex15 {
 

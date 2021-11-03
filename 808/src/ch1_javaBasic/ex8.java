@@ -1,4 +1,5 @@
 package ch1_javaBasic;
+//Ans: C
 
 import java.util.ArrayList;
 import java.util.List;
@@ -64,23 +65,22 @@ public class Test {
 }
 Which code fragment, when inserted at line // insert code here, enables class Test to print 123 : Fred : [Java, C]?
 
-A.
-
+A. //錯在權限
 private Student(int i, String name, List cs) {
 //initialization code goes here 
 }
-B.
 
+B. //錯在是method
 public void Student(int i, String name, List cs) {
  //initialization code goes here 
 }
-C.
 
+C.
 Student(int i, String name, List cs) {
 //initialization code goes here 
 }
-D.
 
+D. //引數是list
 Student(int i, String name, ArrayList cs) {
 // initialization code goes here 
 }

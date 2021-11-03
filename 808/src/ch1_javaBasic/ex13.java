@@ -1,6 +1,5 @@
-
-
 package ch1_javaBasic;
+//Ans:A
 
 public class ex13 {
 
@@ -15,22 +14,22 @@ public class ex13 {
 /*
 Given the content of three files:
 
-A.java
+A.java  //OK
 public class A {
  
     public void a() {
     }
     int a;
 }
-B.java
+B.java   //X 封裝權限不能再method
 public class B {
  
     private int doStuff(){
         private int x = 100;
         return x++;
     }
-}
-C.java
+} 
+C.java  //X import需要再package 跟 class 中間
 import java.io.*;
 package p1;
  

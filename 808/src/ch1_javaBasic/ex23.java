@@ -1,4 +1,5 @@
 package ch1_javaBasic;
+//Ans A
 
 public class ex23 {
 
@@ -15,7 +16,7 @@ public class ex23 {
 /*
 Given the code fragment:
 
-if (aVar++ < 10) {
+if (aVar++ < 10) {   
     System.out.println(aVar + " Hello World!");
 } else {
     System.out.println(aVar + " Hello Universe!");

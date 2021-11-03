@@ -1,4 +1,5 @@
 package ch1_javaBasic;
+//Ans: A B
 
 public class ex9 {
 
@@ -65,12 +66,13 @@ The class is poorly encapsulated. You need to change the circle class to compute
 Which two modifications are necessary to ensure that the class is being properly encapsulated?
 
 A. Remove the area field.
+
 B. Change the getArea( ) method as follows:
-
 public double getArea ( ) { return Match.PI * radius * radius; }
-C. Add the following method:
 
+C. Add the following method:
 public double getArea ( ) {area = Match.PI * radius * radius; }
+
 D. Change the cacess modifier of the SerRadius ( ) method to be protected.
 
 

@@ -1,5 +1,5 @@
 package ch1_javaBasic;
-
+//ans D
 public class ex17 {
 
 	public static void main(String[] args) {
