@@ -40,13 +40,13 @@ public class Access {
         accApp.printThat(3, 4);
     }
  
-    public void printThis(int x, int y) {  //this.x this.y並沒有被修改到
+    public void printThis(int x, int y) { 
         x = x;
         y = y;
         System.out.println("x:" + this.x + " y:" + this.y);
     }
  
-    public void printThat(int x, int y) {  //
+    public void printThat(int x, int y) {  
         this.x = x;
         this.y = y;
         System.out.println("x:" + this.x + " y:" + this.y);
@@ -75,5 +75,6 @@ D.
 x:0 y:0
 x:0 y:0
 
-
+Ans is B
+printThis方法中 因為沒有加this 所以並沒有修改到資料
 */

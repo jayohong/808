@@ -4,14 +4,14 @@ public class ex14 {
 
 	public static void main(String[] args) {
 		 int[] array = {1, 2, 3};
-	        for ( int i = 0; i < 1; ) {
+	        for (;;) {
 	        }
 
 	}
 
 }
 /*
-iven the code fragment:
+Given the code fragment:
 
 public class ForTest {
  
@@ -30,6 +30,9 @@ D. ; i < 1; i++
 E. int i = 0; i < 1;
 
 
-
+Ans is A C E
+for迴圈()內東西並非必要存在項目
+B錯在i沒有宣告
+D錯在i沒有宣告
 
 */

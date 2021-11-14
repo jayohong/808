@@ -1,17 +1,29 @@
 package ch3_Using_Operators_and_Decision_Constructs;
 
 public class ex3 {
+	int num;
+    public static void graceMarks(ex3 obj4) {
+        obj4.num += 5;
+    }
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+        ex3 ob1 = new ex3();
+        ex3 ob2 = ob1;
+        ex3 ob3 = null;
+        ob2.num = 60;
+        graceMarks(ob2);
+        System.out.println(ob1);
+        System.out.println(ob2);
+        System.out.println(ob3);
+       
 	}
 
 }
 /*
 Given:
 
-ublic class MarkList {
+public class MarkList {
  
     int num;
  
@@ -35,6 +47,6 @@ C. 1
 D. 2
 
 
-
+Ans is C
 
 */

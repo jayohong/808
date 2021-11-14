@@ -1,4 +1,5 @@
 package ch1_javaBasic;
+//sAns C
 
 public class ex39 {
 
@@ -43,5 +44,5 @@ System.out.printLn(x > 10 ? ">" ? "<" ? "=");
 E. None of the above
 
 
-
+Ans is C
 */

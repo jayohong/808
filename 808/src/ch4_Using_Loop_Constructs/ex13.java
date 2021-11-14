@@ -63,5 +63,6 @@ Hello Java! 8
 D. Compilation fails
 
 
-
+Ans is C
+static 會有初始直 boolean預設是false
 */

@@ -6,10 +6,9 @@ public class ex3 {
 	 static String[][] arr = new String[3][];
 	 
 	    private static void doPrint() {
-	    	for (int i = 0; i < arr.length; i++) {
-	    	    int j = arr[i].length - 1;
-	    	    System.out.print(arr[i][j]);
-	    	}
+	    	
+
+	    	
 	    }
 	 
 	    public static void main(String[] args) {
@@ -44,7 +43,7 @@ public class Test {
 }
 Which code fragment, when inserted at line //insert code here, enables the code to print COJ?
 
-A. 語法錯誤 str是String不是陣列
+A. 
 int i = 0;
 for (String[] sub : arr) {
     int j = sub.length - 1;
@@ -54,13 +53,13 @@ for (String[] sub : arr) {
     }
 }
 
-B. OK
+B. 
 for (int i = 0; i < arr.length; i++) {
     int j = arr[i].length - 1;
     System.out.print(arr[i][j]);
 }
 
-C. 語法錯誤 寫arr才對
+C. 
 int i = 0;
 for (String[] sub : arr[][]) {
     int j = sub.length;
@@ -68,7 +67,7 @@ for (String[] sub : arr[][]) {
     i++;
 }
 
-D. 答案錯誤
+D. 
 for (int i = 0; i < arr.length - 1; i++) {
     int j = arr[i].length - 1;
     System.out.print(arr[i][j]);
@@ -76,5 +75,10 @@ for (int i = 0; i < arr.length - 1; i++) {
 }
 
 
+ans is B
+解答
+A 語法錯誤 str是String不是陣列
+C 語法錯誤 寫arr才對
+D 答案錯誤
 
 */

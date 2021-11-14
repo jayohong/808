@@ -63,5 +63,9 @@ E. Compilation fails
 
 
 
+Ans is A
+
+char(字元)是可以不加單引號 而int(整數)也是可以加單引號
+所以不會編譯錯誤
 
 */

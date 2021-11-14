@@ -81,5 +81,8 @@ C. Compilation fails
 D. A ClassCastException is thrown at runtime
 
 
-
+my ans is C
+incorrect , ans is A
+轉型只是限制可以使用的方法或變數
+實際的方法還是要看物件實體是什麼
 */

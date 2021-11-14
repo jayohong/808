@@ -43,5 +43,5 @@ Happy Journey! Java
 C. An exception is thrown at runtime
 D. The program fails to execute due to a runtime error
 
-
+Ans is A
 */

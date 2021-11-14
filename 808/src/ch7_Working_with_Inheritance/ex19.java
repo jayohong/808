@@ -1,13 +1,26 @@
 package ch7_Working_with_Inheritance;
 
-public class ex19 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
-}
+//abstract public class ex19 extends X implements Y{
+//    
+////	public void methodX() {}
+////	public void methodY() {}
+////	public void methodZ() {}
+//	
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//
+//	}
+//
+//}
+//abstract class X {
+//	 
+//    public abstract void methodX();
+//}
+// 
+//interface Y {
+// 
+//    public void methodY();
+//}
 /*
 
 Given:
@@ -48,6 +61,7 @@ class Z extends X implements Y{
     public void methodY(){}
 }
 
-
+my ans is D
+若不實作方法 那只能是abstract
 
 */

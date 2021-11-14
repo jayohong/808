@@ -50,5 +50,6 @@ circle
 D. Compilation fails.
 
 
-
+Ans is C
+陷阱:if後面沒接else 所以全部會執行
 */

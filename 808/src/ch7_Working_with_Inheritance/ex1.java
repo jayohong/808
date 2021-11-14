@@ -1,12 +1,14 @@
 package ch7_Working_with_Inheritance;
 
 public class ex1 {
+	
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 
 	}
-
 }
 /*
 Given the code fragment:
@@ -39,5 +41,5 @@ D. Make the method at line n3 protected.
 E. Make the method at line n4 public.
 
 
-
+i dont know
 */

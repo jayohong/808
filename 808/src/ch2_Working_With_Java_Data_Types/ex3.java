@@ -1,5 +1,5 @@
 package ch2_Working_With_Java_Data_Types;
-
+//sAns ABC
 public class ex3 {
 
 	public static void main(String[] args) {
@@ -8,6 +8,33 @@ public class ex3 {
 	}
 
 }
+class ComputeSum {
+	 
+    public int x;
+    public int y;
+    public int sum;
+ 
+    public ComputeSum(int nx, int ny) {
+        x = nx;//當引數找不到x 就會找到方法外層的int x 以此類推
+        y = ny;
+        updateSum();
+    }
+ 
+    public void setX(int nx) {
+        x = nx;
+        updateSum();
+    }
+ 
+    public void setY(int ny) {
+        x = ny;
+        updateSum();
+    }
+ 
+    void updateSum() {
+        sum = x + y;
+    }
+}
+
 
 /*
 Given:
@@ -40,7 +67,7 @@ public class ComputeSum {
 }
 
 
-This class needs to protect an invariant on the sum field.
+This class needs to protect an invariant(不變的) on the sum field.
 
 Which three members must have the private access modifier to ensure that this invariant is maintained?
 
@@ -52,5 +79,6 @@ E. The setX ( ) method
 F. The setY ( ) method
 
 
+Ans is ABC
 
 */

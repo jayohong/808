@@ -85,5 +85,6 @@ Venus
 0
 
 
-
+Ans is C
+note 陣列位址會有一個[
 */

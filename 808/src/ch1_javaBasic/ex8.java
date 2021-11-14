@@ -1,5 +1,5 @@
 package ch1_javaBasic;
-//Ans: C
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -63,14 +63,15 @@ public class Test {
         System.out.println(s);
     }
 }
-Which code fragment, when inserted at line // insert code here, enables class Test to print 123 : Fred : [Java, C]?
+Which code fragment, when inserted at line // insert code here, 
+enables class Test to print 123 : Fred : [Java, C]?
 
-A. //錯在權限
+A. 
 private Student(int i, String name, List cs) {
 //initialization code goes here 
 }
 
-B. //錯在是method
+B. 
 public void Student(int i, String name, List cs) {
  //initialization code goes here 
 }
@@ -80,10 +81,14 @@ Student(int i, String name, List cs) {
 //initialization code goes here 
 }
 
-D. //引數是list
+D. 
 Student(int i, String name, ArrayList cs) {
 // initialization code goes here 
 }
 
+ans is C
+A constructor權限不可為private
+B 有void或回傳值的是方法 不是constructor
+D 因為宣告的是List 雖然實體是ArrayList 但引數還是要用List
 
 */

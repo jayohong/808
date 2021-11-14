@@ -11,7 +11,8 @@ public class ex15 {
 	}
 	 
 	public static boolean isAvailable(int x) {
-	    return x-- > 0 ? true : false;
+		//System.out.println("go into isAvailable");
+		return x-- > 0 ? true : false;
 	}
 
 }
@@ -38,5 +39,11 @@ D. Replace line 12 With return (x > 0) ? false : true;
 
 
 
+
+Ans is B
+
+note 
+isAvailable中的x是區域變數,生命週期只在method內
+與while裡的x是不同的
 
 */

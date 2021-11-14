@@ -1,5 +1,5 @@
 package ch1_javaBasic;
-//Ans B
+
 
 public class ex20 {
 
@@ -32,5 +32,5 @@ E. Line 25
 
 
 
-
+Ans is B
 */

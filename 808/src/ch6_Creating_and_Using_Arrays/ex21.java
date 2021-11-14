@@ -46,6 +46,7 @@ Null
 D. A NullPointerException is thrown at runtime.
 
 
-
+my ans is A
+incorrect,ans is D
 
 */

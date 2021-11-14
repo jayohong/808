@@ -17,6 +17,6 @@ C. These are exceptional conditions that are internal to the application, and th
 D. Every class that is a subclass of RuntimeException and Error is categorized as checked exception.
 E. Every class that is a subclass of Exception, excluding RuntimeException and its subclasses, is categorized as checked exception.
 
-
+i dont know
 
 */

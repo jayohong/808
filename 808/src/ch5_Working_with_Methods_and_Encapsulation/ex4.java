@@ -9,7 +9,7 @@ public class ex4 {
 
 }
 /*
-The protected modifier on a Field declaration within a public class means that the field ______________.
+The protected modifier on a Field declaration within a public class means that the field ______.
 
 A. Cannot be modified
 B. Can be read but not written from outside the class
@@ -17,4 +17,6 @@ C. Can be read and written from this class and its subclasses only within the sa
 D. Can be read and written from this class and its subclasses defined in any package
 
 
+
+Ans is D
 */

@@ -7,7 +7,7 @@ public class ex25 {
 		for (int i = 0; i < num.length; i++) {
 		    for (int j = 0; j < num[i].length; j++) {
 		        num[i][j] = 10;
-		        
+		        System.out.printf("num[%d][%d]:",i,j);
 		        System.out.println(num[i][j]);
 		    }
 		}
@@ -56,6 +56,6 @@ num[1][2]=10
 num[1][3]=10
 
 
-
+my ans is A
 
 */

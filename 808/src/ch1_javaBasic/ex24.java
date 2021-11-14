@@ -41,5 +41,5 @@ D. Changing the type of the variable day to String
 E. Arranging the case labels in ascending order
 
 
-
+Ans is CD
 */

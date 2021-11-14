@@ -50,4 +50,6 @@ Three
 
 D. Compilation fails.
 
+Ans is D
+overloading()內不能一樣
 */

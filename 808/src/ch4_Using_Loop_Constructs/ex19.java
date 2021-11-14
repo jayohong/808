@@ -4,7 +4,13 @@ public class ex19 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		int ii =0; 
+		while( ii < 2){
+	            ii++;
+	            System.out.println("ii = " + ii);
+	        }
 
+		
 	}
 
 }
@@ -34,6 +40,6 @@ E. The program goes to an infinite loop outputting:
 ii = 1
 ii = 1
 
-
-
+Ans is B
+while()裡只能放判斷式 不能宣告
 */

@@ -42,5 +42,6 @@ E.
 Result = 30
 
 
-
+Ans is E
+note 整數除法還是整數
 */

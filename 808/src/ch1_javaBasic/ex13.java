@@ -1,7 +1,9 @@
 package ch1_javaBasic;
-//Ans:A
+
 
 public class ex13 {
+	
+
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -14,14 +16,14 @@ public class ex13 {
 /*
 Given the content of three files:
 
-A.java  //OK
+A.java  
 public class A {
  
     public void a() {
     }
     int a;
 }
-B.java   //X 封裝權限不能再method
+B.java   
 public class B {
  
     private int doStuff(){
@@ -29,7 +31,7 @@ public class B {
         return x++;
     }
 } 
-C.java  //X import需要再package 跟 class 中間
+C.java  
 import java.io.*;
 package p1;
  
@@ -49,4 +51,7 @@ E. The B.java and C.java files compile successfully.
 F. The A.Java and C.java files compile successfully.
 
 
+Ans is A
+B: private protected publiccs等存取修飾詞只能用在類別或是物件的欄位和方法，並不能用在區域變數。
+C: 檔案會編譯失敗，因為「package」只能在所有程式敘述的最上方。
 */

@@ -16,6 +16,7 @@ B. The length of each dimension must be the same.
 C. At the declaration time, the number of elements of the array in each dimension must be specified.
 D. All methods of the class object may be invoked on the two-dimensional array.
 
-
+my ans is BC
+incorrect, ans is AD
 
 */

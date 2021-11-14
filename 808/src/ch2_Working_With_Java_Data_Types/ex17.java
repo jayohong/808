@@ -6,7 +6,7 @@ public class ex17 {
 	 
 	    public void doStuff(int x, int y) {
 	        this.x = x;
-	        this.y = y;
+	        y = this.y;
 	    }
 	 
 	    public void display() {
@@ -73,4 +73,8 @@ D.
 
 
 
+Ans is C
+此題重點在this代表的意義
+y = this.y 等同於 this.y = this.y就是沒改變
+m2.y初始值是0
 */

@@ -4,12 +4,31 @@ public class ex7 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+	    
+	        DoClass doi = new DoClass(100); // line n4
+	        doi.method1(100);
+	        doi.method2(100);
+	    
 
 	}
 
 }
+interface DoInterface {
+	 
+    void method1(int n1); // line n1
+}
+
+class DoClass implements DoInterface {
+	 
+    public DoClass(int p1) {
+    }
+ 
+    public void method1(int p1) {} // line n2
+ 
+    public void method2(int p1) {} // line n3
+}
 /*
-oInterface.java
+DoInterface.java
 package p1;
  
 public interface DoInterface {
@@ -48,4 +67,5 @@ B. Removing the public modifier from the definition of method1 at line n2
 C. Changing the private modifier on the declaration of method 2 public at line n3
 D. Changing the line n4 DoClass doi = new DoClass();
 
+Ans is C
 */

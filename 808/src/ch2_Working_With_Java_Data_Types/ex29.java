@@ -51,5 +51,9 @@ E. Compilation fails
 
 
 
-
+Ans is D
+note 
+初始值是0
+for迴圈的i是區域變數與物件的i不是同一個
+需注意 for迴圈內也不一定都是區域變數 需依照題意去判斷
 */

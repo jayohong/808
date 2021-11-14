@@ -17,6 +17,13 @@ C. Abstraction
 D. Instantiation
 E. Polymorphism
 
+ans is A 封裝
 
+
+A.封装
+B.继承
+C.抽象
+D.實體化
+E.多型
 
 */

@@ -35,5 +35,5 @@ B.
 C. Compilation fails.
 D. An ArrayoutofBoundsException is thrown at runtime.
 
-
+my ans is A
 */

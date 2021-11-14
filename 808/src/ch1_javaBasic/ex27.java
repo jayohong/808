@@ -1,5 +1,5 @@
 package ch1_javaBasic;
-
+// s ans E
 public class ex27 {
 
 	public static void main(String[] args) {
@@ -37,5 +37,6 @@ D.
 E. Compilation fails
 
 
-
+Ans is E
+三元運算子出錯
 */

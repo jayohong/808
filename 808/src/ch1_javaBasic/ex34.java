@@ -41,5 +41,5 @@ javac Greeting.java
 java Greeting.class Duke
 
 
-
+Ans is C
 */

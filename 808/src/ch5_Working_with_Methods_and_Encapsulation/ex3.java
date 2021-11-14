@@ -17,5 +17,12 @@ C. Changing the return type of a method to void
 D. Returning a copy of the contents of an array or ArrayList instead of a direct reference
 
 
+Ans is AD
+哪兩個動作會改善類的封裝？
+A. 將字段的訪問修飾符從 public 更改為 private
+B. 從類聲明中刪除 public 修飾符
+C. 將方法的返回類型更改為 void
+D. 返回數組或 ArrayList 內容的副本而不是直接引用
+
 
 */

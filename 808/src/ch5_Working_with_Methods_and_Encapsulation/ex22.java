@@ -54,5 +54,7 @@ Market.java
 import sales.*;
 import sales.products.*;
 
-
+Ans is E
+package1.*只包含到package1裡的class檔,若package1裡有package2則需要package1.package2.*
+才能含括到package2裡的class
 */

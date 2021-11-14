@@ -6,6 +6,7 @@ public class ex12 {
 	 
 	    public void displaySeries() {
 	        int num = 2;
+	        System.out.println(flag);
 	        while (flag) {
 	            if (num % 7 == 0) {
 	                flag = false;
@@ -53,5 +54,13 @@ B.
 C. Compilation fails
 D. The program prints multiple of 2 infinite times
 E. The program prints nothing
+
+
+
+Ans is E
+
+note:
+boolean初始值是false
+所以並沒有進入while迴圈
 
 */

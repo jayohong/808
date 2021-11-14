@@ -1,5 +1,5 @@
 package ch1_javaBasic;
-//ans AC
+
 
 public class ex21 {
 
@@ -52,5 +52,5 @@ E.
 discount = (qty > 80) ? 0.2 : (qty >= 90) ? 0.5 : 0;
 
 
-
+Ans is AC
 */

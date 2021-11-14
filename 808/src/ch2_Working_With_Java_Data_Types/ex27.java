@@ -5,6 +5,7 @@ public class ex27 {
 	public static void main(String[] args) {
 		System.out.println("5 + 2 = " + 3 + 4);
 		System.out.println("5 + 2 = " + (3 + 4));
+		System.out.println(5+2+3+4);
 
 	}
 
@@ -37,5 +38,7 @@ D.
 5 + 2 = 34
 5 + 2 = 7
 
-
+Ans is D
+都是數字就是數字加法
+只要有一個文字 就是文字加
 */

@@ -9,7 +9,8 @@ public class ex5 {
 
 }
 /*
-What is the proper way to defined a method that take two int values and returns their sum as an int value?
+What is the proper way to defined a method that take two int values and 
+returns their sum as an int value?
 
 A.
 
@@ -28,5 +29,5 @@ E.
 void sum (int first, int second) { return first + second; }
 
 
-
+Ans is D
 */

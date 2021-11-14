@@ -1,5 +1,5 @@
 package ch1_javaBasic;
-//Ans A
+
 public class ex7 {
 
 	public static void main(String[] args) {
@@ -33,5 +33,5 @@ C.
 D. Compilation fails
 E. An exception is thrown at runtime
 
-
+ans is A
 */

@@ -1,7 +1,5 @@
 package ch1_javaBasic;
-/*
- Ans: DGH
- */
+
 
 public class ex2 {
 
@@ -66,26 +64,29 @@ public static void main(String[] args){
 Which three lines, when inserted independently at line n1, cause the program to print a 0 balance?
 
 A.
-this.amount = 0; 語法錯誤
+this.amount = 0; 
 
 B.
-amount = 0;  語法錯誤
+amount = 0;
 
 C.
-acct(0);     語法錯誤
+acct(0);
 
 D.
 acct.amount = 0;
 
 E.
-acct.getAmount() = 0;   語法錯誤
+acct.getAmount() = 0; 
 
 F.
-acct.changeAmount(0);   值不變
+acct.changeAmount(0); 
 
 G.
 acct.changeAmount(-acct.amount);
 
 H.
 acct.changeAmount(-acct.getAmount());
+
+
+ans is DGH
 */

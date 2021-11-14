@@ -4,7 +4,10 @@ public class ex20 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Object array[];
+		//Boolean array1[3];
+		int[] array2;
+		//Float[2] array3;
 	}
 
 }
@@ -16,5 +19,5 @@ B. Boolean array[3];
 C. int[] array;
 D. Float[2] array;
 
-
+my ans is AC
 */

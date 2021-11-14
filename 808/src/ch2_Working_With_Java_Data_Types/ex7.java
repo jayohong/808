@@ -61,6 +61,6 @@ Fresco : Fresco
 
 D. A NullPointerException is thrown at runtime
 
-
+my Ans: B
 
 */

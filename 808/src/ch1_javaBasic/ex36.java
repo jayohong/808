@@ -12,7 +12,9 @@ public class ex36{
         ps.add(p2);
  
        
-        int f = ps.indexOf(p2);
+        //int f = ps.indexOf(new Patient("Mike"));
+        Patient p= new Patient("Mike");
+        int f = ps.indexOf(p);
         
        
         System.out.println(f);
@@ -75,4 +77,12 @@ D.
 int f = ps.indexOf(p2);
 
 
+
+
+Ans is D
+
+A:錯在indexof{}, 編譯錯誤
+B:錯在沒有加new 編譯錯誤
+C:p沒有放進ps內 會回傳-1(查無)
+D:correct
 */

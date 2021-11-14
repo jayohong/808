@@ -8,6 +8,17 @@ public class ex17 {
 	}
 
 }
+interface CanFly {
+	 
+    String type = "A";
+ 
+    void fly();
+ 
+    default String getType() {
+        return type;
+    }
+}
+
 /*
 Which of the following can fill in the blank in this code to make it compile?
 
@@ -17,7 +28,7 @@ interface CanFly {
  
     void fly();
  
-    �šššššš�  String getType() {
+    ______ String getType() {
         return type;
     }
 }
@@ -28,5 +39,5 @@ D. It will not compile with any as interfaces cannot have non abstract methods.
 E. It will compile without filling the blank.
 
 
-
+my ans is C
 */

@@ -3,7 +3,7 @@ package ch2_Working_With_Java_Data_Types;
 public class ex6 {
 
 	public static void main(String[] args) {
-		  
+
 	}
 
 }
@@ -32,4 +32,7 @@ F. Line 12
 
 
 
+Ans: ADF
+double>float>int
+小給大可以 大給小不行
 */

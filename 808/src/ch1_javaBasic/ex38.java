@@ -64,5 +64,9 @@ Compilation fails at the Test class.
 
 
 
+Ans is C
+note:
+new StringBuilder("Java SE 8")比較特別
+它並不會產生物件,而會是一個字串
 
 */

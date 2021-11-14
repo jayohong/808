@@ -5,17 +5,20 @@ public class ex4 extends Mid{
 	public static void main(String[] args) {
 		
 		 int n1 = 22, n2 = 2;
-	      // ex4 e=new ex4();
-		 Mid e=new ex4();
-	       
-	       int n3=e.findMid(n1, n2);
+	       //ex4 e=new ex4();
+		 //Mid e=new ex4();
+	       //Mid e =new ex4();
+	     
+	       int n3=ex4.findMid(n1, n2);
+		 
+		 
 	        System.out.print(n3);
 	}
 
 }
 class Mid {
 	 
-    public int findMid(int n1, int n2) {
+    static public int findMid(int n1, int n2) {
         return (n1 + n2) / 2;
     }
 }
@@ -59,5 +62,8 @@ E.
 int n3 = Calc.findMid(n1, n2);
 
 
-
+my ans is AD
+B:
+C:錯在父類別不能轉型子類別
+E:除非是static method不然不能這樣用
 */

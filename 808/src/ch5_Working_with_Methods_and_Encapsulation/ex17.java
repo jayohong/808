@@ -11,7 +11,7 @@ public class ex17 {
 /*
 Given the code fragment?
 
-ublic class Test {
+public class Test {
  
     public static void main(String[] args) {
         Test t = new Test();
@@ -44,6 +44,6 @@ public int subArray(int[] src, int start, int end) {
      return src;
 }
 
-
+Ans is A
 
 */

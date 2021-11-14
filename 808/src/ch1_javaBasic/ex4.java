@@ -38,4 +38,10 @@ C.
 D. Compilation fails
 
 
+ans is C
+
+for迴圈順序流程 
+比較ii<j-1  =>  (true)執行{}內容 =>ii=ii+2 ==>重複
+		  => (false)結束迴圈
+
 */

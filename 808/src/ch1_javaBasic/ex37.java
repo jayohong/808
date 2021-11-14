@@ -14,7 +14,7 @@ public class ex37 {
 	    }
 	 
 	    public static void main(String[] args) {
-	        int marks = Integer.parseInt(args[2]);
+	        int marks = 104;
 	        try {
 	            new ex37().verify(marks);
 	        } catch (Exception e) {
@@ -72,5 +72,6 @@ D. Class IndexOutOfBoundsException
 E. Class Exception
 
 
-
+Ans is C
+類似多型概念
 */

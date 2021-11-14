@@ -94,5 +94,5 @@ C.
 D. Compilation fails
 
 
-
+Ans is C
 */

@@ -1,5 +1,5 @@
 package ch1_javaBasic;
-//Ans C
+
 public class ex16 {
 
 	public static void main(String[] args) {
@@ -11,7 +11,8 @@ public class ex16 {
 		} else {
 		    var3 = --var2;
 		}
-		System.out.println(var3);
+		System.out.println("var1:"+var1+",var2:"+var2+",var3:"+var3);
+		
 		
 	}
 
@@ -53,5 +54,5 @@ E.
 F. Compilation fails
 
 
-
+Ans is C
 */

@@ -18,6 +18,6 @@ C. ArrayIndexOutOfBoundsException
 D. IndexOutOfBoundsException
 E. This statement does not cause any exception.
 
-
+ans is B
 
 */

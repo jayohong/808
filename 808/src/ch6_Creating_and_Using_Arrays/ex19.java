@@ -49,5 +49,5 @@ null Unix Linux Solaris
 C. Class java.lang.Exception
 D. Class java.lang.NullPointerException
 
-
+my ans is B
 */

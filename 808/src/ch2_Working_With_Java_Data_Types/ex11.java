@@ -42,19 +42,22 @@ public class DBHandler {
 Which code fragment must be inserted at line 6 to enable the code to compile?
 
 A.
-
 DBConfiguration f;
 return f;
+
 B.
-
 return DBConfiguration;
+
 C.
-
 return new DBConfiguration();
-D.
 
+D.
 retutn 0;
 
 
 
+Ans is  C
+note: 
+此題需要return一個DBConfiguration物件
+需注意物件要實體化才能return
 */

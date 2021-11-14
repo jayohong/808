@@ -32,6 +32,6 @@ C. An exception is thrown at runtime
 D.
 0
 
-
+Ans is C
 
 */

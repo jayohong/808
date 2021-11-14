@@ -1,5 +1,5 @@
 package ch1_javaBasic;
-//Ans:A
+
 
 public class ex15 {
 
@@ -47,5 +47,7 @@ C. 4
 
 D. 0
 
+Ans is A
+if條件式完成後即跳出
 
 */

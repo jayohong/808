@@ -7,6 +7,7 @@ public class ex12 {
         for (int i : x) {
             System.out.print(i + " ");
             i++;
+           
         }
 		
 
@@ -23,6 +24,7 @@ public class MyFor1 {
         for (int i : x) {
             System.out.print(i + " ");
             i++;
+            
         }
     }
 }
@@ -47,6 +49,6 @@ D.
 E. Compilation fails
 
 
-
+Ans is A
 
 */

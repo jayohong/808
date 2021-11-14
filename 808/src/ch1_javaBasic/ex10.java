@@ -1,6 +1,6 @@
 package ch1_javaBasic;
 
-//Ans C
+
 
 public class ex10 {
 
@@ -21,5 +21,5 @@ D. It can run on any platform that has a Java compiler.
 E. It can run on any platform only if that platform has both the Java Runtime Environment and a Java compiler.
 
 
-
+Ans is C
 */

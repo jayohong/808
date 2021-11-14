@@ -78,5 +78,8 @@ Replace line n1 with:
 this("Joe", true, 100);
 
 
+ans is AC
 
+C是包覆物件 這是合法的
+D錯在TRUE要小寫
 */

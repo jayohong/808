@@ -51,5 +51,7 @@ C.
 D. Compilation fails.
 
 
-
+Ans is A
+區域變數生命週期問題
+var1 與 doCalc(var1)裡運算的var1不相同
 */

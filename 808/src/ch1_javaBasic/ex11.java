@@ -1,5 +1,5 @@
 package ch1_javaBasic;
-//Ans B(陷阱 沒有main方法 可編譯不能run)
+
 
 public class ex11 {
 
@@ -44,5 +44,6 @@ E.
 
 Mom
 
-
+Ans is B
+沒有main方法 可編譯但不能執行
 */

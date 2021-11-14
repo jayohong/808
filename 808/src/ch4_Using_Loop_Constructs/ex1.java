@@ -56,4 +56,6 @@ false, false
 
 
 
+Ans is B
+String是物件
 */

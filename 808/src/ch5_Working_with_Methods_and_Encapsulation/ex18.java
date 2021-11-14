@@ -3,7 +3,14 @@ package ch5_Working_with_Methods_and_Encapsulation;
 public class ex18 {
 
 	public static void main(String[] args) {
-		 byte x=1;
+		 //byte x=1; //O
+		 //short x=1;//O
+		//String x="1";//X
+		//long x=1;  //X
+		//Double x=1;//X
+		Integer x= new Integer("1");
+		
+		
         switch (x) {
             case 1:
                 System.out.println("One");
@@ -54,4 +61,8 @@ F.
 Integer x = new Integer("1");
 
 
+
+
+Ans is ABF
+switch整數可用byte short int這三種 long不行
 */

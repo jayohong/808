@@ -1,5 +1,5 @@
 package ch1_javaBasic;
-//ans A
+
 public class ex18 {
 
 	public static void main(String[] args) {
@@ -47,5 +47,5 @@ D.
 
 5 : 4
 
-
+Ans is A
 */

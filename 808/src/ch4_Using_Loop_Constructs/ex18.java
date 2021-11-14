@@ -46,4 +46,6 @@ D. Compilation fails
 
 
 
+Ans is C
+執行到break就跳出迴圈
 */

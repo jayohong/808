@@ -21,5 +21,5 @@ C. Only I and II.
 D. Only I and III.
 E. ALL
 
-
+Ans is D
 */

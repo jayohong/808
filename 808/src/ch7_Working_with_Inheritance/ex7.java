@@ -71,5 +71,8 @@ At line n4 insert:
 
 public void setBookMark() { }
 
-
+my ans is D
+note 
+abstract class 沒有實做interface的方法就不用寫
+但class必須實作interface 跟 abstract class所有的方法
 */

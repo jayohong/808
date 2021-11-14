@@ -2,7 +2,7 @@ package ch8_Handling_Exceptions;
 
 public class ex1 {
 
-	 public static void main(String[] args) {
+	 public static void main(String[] args) throws Exception{
 	        ex1 t = new ex1();
 	        try {
 	            t.doPrint();
@@ -10,6 +10,7 @@ public class ex1 {
 	        } catch (Exception e2) {
 	            System.out.println("Caught " + e2);
 	        }
+
 	    }
 	    public void doList() throws Exception {
 	        throw new Error("Error");
@@ -65,6 +66,5 @@ D.
 Caught java.lang.RuntimeException: Exception
 
 
-
-
+my ans is D
 */

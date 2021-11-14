@@ -86,5 +86,7 @@ ve
 D. Compilation fails
 
 
-
+my ans is D
+incorrect, ans is B
+儲存父類別的ArrayList內,也可以放子類別的東西
 */

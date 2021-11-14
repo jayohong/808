@@ -1,10 +1,10 @@
 package ch7_Working_with_Inheritance;
 
 public class ex3 {
-
+	static String args[] = {"lazy", "lion", "is", "always"};
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		 System.out.println(args[1] + " " + args[2] + " " + args[3] + " jumping");
 	}
 
 }
@@ -44,6 +44,6 @@ elephant is always jumping
 
 E. Compilation fails
 
-
+my ans is C
 
 */

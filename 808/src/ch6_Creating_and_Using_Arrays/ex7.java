@@ -12,7 +12,8 @@ public class ex7 {
 		names.add("Rick");
 		names.add("Bran");
 		if (names.remove("Bran")) {
-		    names.remove("Jon");
+		    
+			System.out.println(names.remove("Jon"));
 		}
 		System.out.println(names);
 
@@ -47,6 +48,7 @@ C.
 D. An exception is thrown at runtime.
 
 
-
+my ans is A
+correct
 
 */

@@ -1,5 +1,5 @@
 package ch1_javaBasic;
-//Ans: A B
+
 
 public class ex9 {
 
@@ -76,6 +76,6 @@ public double getArea ( ) {area = Match.PI * radius * radius; }
 D. Change the cacess modifier of the SerRadius ( ) method to be protected.
 
 
-
+Ans is AB
 
 */

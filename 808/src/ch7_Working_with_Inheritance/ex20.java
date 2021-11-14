@@ -8,6 +8,7 @@ public class ex20 {
 	}
 
 }
+
 /*
 Given:
 
@@ -58,6 +59,6 @@ B.
 C. Compilation fails at line n1
 D. Compilation fails at line n2
 
-
+my ans is D
 
 */

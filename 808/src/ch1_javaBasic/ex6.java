@@ -1,5 +1,5 @@
 package ch1_javaBasic;
-//ANS:B(15 33)
+
 public class ex6 {
 
 	public static void main(String[] args) {int i, j = 0;
@@ -41,5 +41,5 @@ i:15
 j:23
 
 
-
+ans is B
 */

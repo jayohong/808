@@ -1,6 +1,6 @@
 package ch7_Working_with_Inheritance;
 
-public class ex18 {
+public class ex18{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -40,6 +40,6 @@ E.
 
 class C extends B implements X, Y { }
 
-
+my ans is AE
 
 */

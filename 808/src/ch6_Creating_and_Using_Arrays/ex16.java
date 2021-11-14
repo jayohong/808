@@ -48,5 +48,5 @@ B. After line 8, two objects are eligible for garbage collection
 C. After line 8, one object is eligible for garbage collection
 D. After line 8, none of the objects are eligible for garbage collection
 
-
+my ans is C
 */

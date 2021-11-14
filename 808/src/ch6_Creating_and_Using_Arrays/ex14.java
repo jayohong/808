@@ -67,5 +67,5 @@ D. A NullPointerException is thrown at runtime.
 E. An ArraylndexOutOfBoundsException is thrown at runtime.
 
 
-
+my ans is A
 */

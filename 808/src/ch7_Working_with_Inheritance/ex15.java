@@ -10,6 +10,7 @@ public class ex15 {
 	        Base b3 = new DerivedB();
 	        b1 = (Base) b3;
 	        Base b4 = (DerivedA) b3;
+	        
 	        b1.test();
 	        b4.test();
 	    }
@@ -102,5 +103,10 @@ DerivedA
 E. A classcast Except ion is thrown at runtime.
 
 
+my ans is C
+incorrect,ans is E
 
+note 
+DerivedA與DerivedB之間並沒有直接的繼承關西
+所以不能轉型
 */

@@ -44,5 +44,8 @@ C. At line 9, remove the break statement.
 D. Remove the default section.
 
 
+Ans is A
 
+note:
+switch允許類型 char int short byte String
 */

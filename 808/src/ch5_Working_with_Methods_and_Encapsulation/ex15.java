@@ -55,5 +55,6 @@ D.
 Base 30
 Overridden 20
 
+Ans is B
 
 */

@@ -24,7 +24,7 @@ int d = expression2;
 c++;
 d--;
 System.out.print(c + ", " + d);
-What could expression1 and expression2 be, respectively, in order to produce output ¡V8, 16?
+What could expression1 and expression2 be, respectively, in order to produce output -8, 16?
 
 A.
 ++a, --b
@@ -36,5 +36,5 @@ D.
 a++, b--
 
 
-
+Ans is B
 */

@@ -4,7 +4,22 @@ public class ex3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		int array[] = {0, 1, 2, 3, 4};
+        
+		int key = 3;
+       
+		for ( int pos = 0; pos < array.length; ++pos) 
+		{
+           
+			
+		if (array[pos] == key) {
 
+		                break;
+            }
+        
+		}
+       
+//		System.out.print("Found " + key + " at " + pos);
 	}
 
 }
@@ -46,5 +61,10 @@ C. Compilation fails
 D. An exception is thrown at runtime
 
 
+
+
+Ans is C
+在for迴圈()變數pos是區域變數
+所以沒辦法在迴圈外使用
 
 */

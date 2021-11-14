@@ -1,5 +1,5 @@
 package ch1_javaBasic;
-//Ans A
+
 
 public class ex23 {
 
@@ -37,5 +37,5 @@ Hello World!
 
 D. Compilation fails.
 
-
+Ans is A
 */

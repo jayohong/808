@@ -17,5 +17,5 @@ C. More dynamic code at runtime
 D. More flexible and reusable code
 E. Code that is protected from extension by other classes
 
-
+my ans is DE
 */

@@ -8,6 +8,36 @@ public class ex16 {
 	}
 
 }
+
+abstract class ToyA {
+	 
+    public abstract int calculatePrice(ToyA t);
+ 
+    public void printToy(ToyA t) {  }
+}
+
+abstract class ToyB {
+	 
+    public abstract  int calculatePrice(ToyB t);
+ 
+    public abstract void printToy(ToyB t);
+}
+
+abstract class ToyC {
+	 
+    public abstract int calculatePrice(ToyC t);
+ 
+    public final void printToy(ToyC t) {    }
+}
+
+//abstract class ToyD {
+//	 
+//    public abstract int calculatePrice(ToyD t) {  code goes here  }
+// 
+//    public abstract void printToy(ToyD t) { code goes here  }
+//}
+
+
 /*
 You are asked to develop a program for a shopping application, and you are given the following information:
 
@@ -50,6 +80,17 @@ public abstract class Toy {
     public abstract void printToy(Toy t) { code goes here  }
 }
 
+
+my ans is B
+incorrect,Ans is A
+
+B錯在少abstract關鍵字
+C錯在calculatePrice少abstract關鍵字 finalmethod用在這裡是OK的
+D錯在加了abstract關鍵字就不能再實作方法
+
+note 
+abstract class裡的abstract method需要關鍵字abstract
+but 在interface內 因為method都是public abstract 所以反而可以省略
 
 
 */
