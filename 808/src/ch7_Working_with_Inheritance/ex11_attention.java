@@ -1,13 +1,13 @@
 package ch7_Working_with_Inheritance;
 
-public class ex11 {
+public class ex11_attention {
 
 	public static void main(String[] args) {
 		// C c = new C();
-		A a = new A();
-		System.out.println("");
-		B b = new B();
-		System.out.println("");
+//		A a = new A();
+//		System.out.println("");
+//		B b = new B();
+//		System.out.println("");
 		C c = new C();
 	}
 
@@ -67,9 +67,10 @@ class C extends B {
  * 
  * D. Compilation fails at line n1 and line n2
  * 
- * my ans is B 
- * incorrect, ans is C
- * note 
+ * 
+ * 
+ * 
+ *Ans is C
  * 子類別的建構式會自動繼承父類別的建構式內容 super雖然沒寫但存在
  * 執行時會從最前面的父類別執行起
  */

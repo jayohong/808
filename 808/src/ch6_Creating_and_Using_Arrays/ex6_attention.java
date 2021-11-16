@@ -1,6 +1,6 @@
 package ch6_Creating_and_Using_Arrays;
 
-public class ex6 {
+public class ex6_attention {
 
 	public static void main(String[] args) {
 		int nums1[]  = new int[3];
@@ -35,5 +35,5 @@ B.
 C. Compilation fails.
 D. An ArrayoutofBoundsException is thrown at runtime.
 
-my ans is A
+Ans is A
 */

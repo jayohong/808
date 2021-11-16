@@ -1,6 +1,6 @@
 package ch7_Working_with_Inheritance;
 
-public class ex20 {
+public class ex20_attention {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -59,6 +59,6 @@ B.
 C. Compilation fails at line n1
 D. Compilation fails at line n2
 
-my ans is D
+Ans is D
 
 */

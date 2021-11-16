@@ -48,5 +48,5 @@ for (int i = 0; i < intArr.length; i++) {
     System.out.print(intArr[i] + " ");
 }
 
-my ans is BE
+Ans is BE
 */

@@ -52,8 +52,9 @@ F.
 Beagle c = new Dog();
 
 
-my ans is ADE
-note interface無法被實體化
-轉型只有子類別可以轉父類別
-不能父類別轉子類別
+
+
+Ans is ADE
+interface無法被實體化
+子類別不能new父類別
 */

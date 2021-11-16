@@ -17,6 +17,7 @@ interface CanFly {
     default String getType() {
         return type;
     }
+
 }
 
 /*
@@ -39,5 +40,5 @@ D. It will not compile with any as interfaces cannot have non abstract methods.
 E. It will compile without filling the blank.
 
 
-my ans is C
+Ans is C
 */

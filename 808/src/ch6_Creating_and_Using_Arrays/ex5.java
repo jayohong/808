@@ -79,6 +79,6 @@ Super
 C. Compilation fails at line n1
 D. Compilation fails at line n2
 
-my ans is A
+Ans is A
 getClass方法看的是實際new的實體是什麼
 */

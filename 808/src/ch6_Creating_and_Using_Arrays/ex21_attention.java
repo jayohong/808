@@ -1,6 +1,6 @@
 package ch6_Creating_and_Using_Arrays;
 
-public class ex21 {
+public class ex21_attention {
 
 	public static void main(String[] args) {
 		String[] strs = new String[2];
@@ -46,7 +46,12 @@ Null
 D. A NullPointerException is thrown at runtime.
 
 
-my ans is A
-incorrect,ans is D
+
+
+
+Ans is D
+String 初始是null 
+concat方法前面必需有東西
+
 
 */

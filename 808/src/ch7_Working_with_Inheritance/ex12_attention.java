@@ -1,6 +1,6 @@
 package ch7_Working_with_Inheritance;
 
-public class ex12 {
+public class ex12_attention {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

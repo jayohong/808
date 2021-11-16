@@ -61,7 +61,10 @@ class Z extends X implements Y{
     public void methodY(){}
 }
 
-my ans is D
+
+
+
+Ans is BD
 若不實作方法 那只能是abstract
 
 */

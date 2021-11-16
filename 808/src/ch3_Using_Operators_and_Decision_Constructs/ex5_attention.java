@@ -61,5 +61,11 @@ B. Three
 C. Four
 D. Six
 
+
+
+
 Ans is C
+丟出的異常物件也算一個
+這題我不清楚的地方是為什麼throw new Exception()後 不會被catch然後中斷程式
+必須再確認try catch機制
 */

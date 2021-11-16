@@ -47,18 +47,39 @@ class Director extends Manager {
  * 
  * Given the following classes:
  * 
- * Employee.java public class Employee {
+ * Employee.java 
  * 
- * public int salary; } Manager.java public class Manager extends Employee {
+ * public class Employee {
  * 
- * public int budget; } Director.java public class Director extends Manager {
+ * 		public int salary; 
+ * } 
  * 
- * public int stockOptions; } And given the follow main method:
+ * Manager.java 
  * 
- * public static void main(String[] args){ Employee employee = new Employee();
- * Manager manager = new Manager(); Director director = new Director(); // line
- * n1 } Which two options fail to compile when placed at line n1 of the main
- * method?
+ * public class Manager extends Employee {
+ * 
+ * 		public int budget; 
+ * } 
+ * 
+ * Director.java 
+ * 
+ * public class Director extends Manager {
+ * 
+ * 		public int stockOptions; 
+ * } 
+ * 
+ * 
+ * And given the follow main method:
+ * 
+ * public static void main(String[] args){ 
+ * 
+ * 		Employee employee = new Employee();
+ * 		Manager manager = new Manager(); 
+ * 		Director director = new Director(); 
+ * 		// line  n1 
+ * 		} 
+ * 
+ * Which two options fail to compile when placed at line n1 of the main method?
  * 
  * A.
  * 
@@ -79,5 +100,9 @@ class Director extends Manager {
  * 
  * director.stockOptions = 1_000;
  * 
- * my ans is CE
+ * 
+ * 
+ * 
+ * 
+ * Ans is CE
  */

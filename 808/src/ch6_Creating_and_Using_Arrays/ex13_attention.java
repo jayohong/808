@@ -1,6 +1,6 @@
 package ch6_Creating_and_Using_Arrays;
 
-public class ex13 {
+public class ex13_attention {
 
 	public static void main(String[] args) {
 		String shirts[][] = new String[2][2];
@@ -59,5 +59,8 @@ for (int index = 0; index < 2;) {
     index++;
 }
 
-my ans is D
+
+
+Ans is D
+B有陷阱 idx<2才對
 */

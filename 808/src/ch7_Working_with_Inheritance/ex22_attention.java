@@ -3,7 +3,7 @@ package ch7_Working_with_Inheritance;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ex22 {
+public class ex22_attention {
 
 	public static void main(String[] args) {
 		List<Alpha> strs = new ArrayList<Alpha>();
@@ -86,7 +86,14 @@ ve
 D. Compilation fails
 
 
-my ans is D
-incorrect, ans is B
-儲存父類別的ArrayList內,也可以放子類別的東西
+
+
+
+
+Ans is B
+
+此題考的是多型(Polymorphism)與方法的多載(Overload)
+1. 儲存父類別的ArrayList內,也可以放子類別的東西
+2. substring(int x):從這個執行個體擷取子字串。 子字串會在指定的字元位置開始並繼續到字串的結尾。
+
 */

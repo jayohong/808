@@ -1,6 +1,6 @@
 package ch6_Creating_and_Using_Arrays;
 
-public class ex9 {
+public class ex9_attention {
 
 	public static void main(String[] args) {
 		int array[] = new int[-2];
@@ -19,5 +19,6 @@ D. IndexOutOfBoundsException
 E. This statement does not cause any exception.
 
 ans is B
+
 
 */

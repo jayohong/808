@@ -1,6 +1,6 @@
 package ch7_Working_with_Inheritance;
 
-public class ex1 {
+public class ex1_attention {
 	
 	
 
@@ -41,5 +41,6 @@ D. Make the method at line n3 protected.
 E. Make the method at line n4 public.
 
 
-i dont know
+Ans is CD
+此題考的是子類別繼承後 override方法權限必須高於或等於父類別
 */

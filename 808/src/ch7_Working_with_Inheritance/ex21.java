@@ -61,5 +61,7 @@ public abstract class Circle implements Shape{
 }
 
 
-my ans is BE
+Ans is BE
+shape是abstract class 只能extends
+繼承abstract class的class 若不實作抽象方法 就只能宣告成abstract class
 */

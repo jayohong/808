@@ -56,6 +56,6 @@ num[1][2]=10
 num[1][3]=10
 
 
-my ans is A
+Ans is A
 
 */

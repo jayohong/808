@@ -1,6 +1,6 @@
 package ch7_Working_with_Inheritance;
 
-public class ex8 extends Exam{
+public class ex8_attention extends Exam{
 	void method() {
 		
 	}
@@ -34,8 +34,12 @@ C. private
 D. default
 E. int
 
-my ans is C
-incorrect ans is B
+
+
+
+
+
+Ans is B
 
 A: 只有interface & abstract class允許有abstract method
 B: final 宣告在方法則該方法可繼承無法在覆寫

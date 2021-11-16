@@ -40,6 +40,11 @@ E.
 
 class C extends B implements X, Y { }
 
-my ans is AE
+
+
+
+
+
+Ans is AE
 
 */

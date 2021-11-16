@@ -32,7 +32,7 @@ class Overloading {
         new Overloading().x(4.0);
     }
 }
-What is the result?
+
 
 What is the result?
 
@@ -50,6 +50,10 @@ Three
 
 D. Compilation fails.
 
+
+
+
+
 Ans is D
-overloading()內不能一樣
+overloading時()內引數不能相同
 */

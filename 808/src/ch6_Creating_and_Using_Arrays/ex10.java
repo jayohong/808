@@ -53,5 +53,5 @@ for (String c : colors) {
     }
 }
 
-my ans is A
+Ans is A
 */

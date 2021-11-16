@@ -81,7 +81,7 @@ public void setNum(int num) {
     this.num = num;
 }
 
-Ans is  A D(D有一個前提 在不同的package才看得protected效果)
+Ans is  AD (D有一個前提 在不同的package沒有繼承關西時才看得protected效果)
 //public作用範圍    同一類別 同一套件(資料夾) 不同套件的子類別(繼承) 不同套件且非子類別
 //protected作用範圍 同一類別 同一套件(資料夾) 不同套件的子類別(繼承)
 //"預設"作用範圍     同一類別 同一套件(資料夾) 

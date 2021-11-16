@@ -1,6 +1,6 @@
 package ch7_Working_with_Inheritance;
 
-public class ex4 extends Mid{
+public class ex4_attention extends Mid{
 
 	public static void main(String[] args) {
 		
@@ -9,7 +9,7 @@ public class ex4 extends Mid{
 		 //Mid e=new ex4();
 	       //Mid e =new ex4();
 	     
-	       int n3=ex4.findMid(n1, n2);
+	       int n3=ex4_attention.findMid(n1, n2);
 		 
 		 
 	        System.out.print(n3);

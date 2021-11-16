@@ -1,6 +1,6 @@
 package ch6_Creating_and_Using_Arrays;
 
-public class ex14 {
+public class ex14_attention {
 
 	public static void main(String[] args) {
 		String[][] chs = new String[2][];
@@ -67,5 +67,10 @@ D. A NullPointerException is thrown at runtime.
 E. An ArraylndexOutOfBoundsException is thrown at runtime.
 
 
-my ans is A
+
+
+
+Ans is A
+chs[1] = new String[5] 表示開了五個位置
+如不用就是null 
 */

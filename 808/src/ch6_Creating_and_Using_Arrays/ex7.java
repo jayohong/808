@@ -48,7 +48,7 @@ C.
 D. An exception is thrown at runtime.
 
 
-my ans is A
-correct
+Ans is A
+
 
 */

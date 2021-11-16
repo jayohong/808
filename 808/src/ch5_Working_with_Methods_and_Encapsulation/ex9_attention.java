@@ -74,4 +74,5 @@ E. The program fails to execute due to runtime error
 
 
 Ans is A
+注意 是字串相加
 */

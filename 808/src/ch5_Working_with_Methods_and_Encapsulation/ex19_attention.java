@@ -91,5 +91,5 @@ ns = 0 s = 125
 Ans is B
 兩個關鍵
 1. static 值是共用的
-2. if條件沒符合 field ns沒有給值
+2. ref3 if條件沒符合 ref3.ns並沒有給100的值
 */

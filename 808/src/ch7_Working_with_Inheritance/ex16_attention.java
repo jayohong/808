@@ -1,6 +1,6 @@
 package ch7_Working_with_Inheritance;
 
-public class ex16 {
+public class ex16_attention {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -81,10 +81,15 @@ public abstract class Toy {
 }
 
 
-my ans is B
-incorrect,Ans is A
 
-B錯在少abstract關鍵字
+
+
+
+
+
+Ans is A
+
+B錯在少abstract關鍵字(abstract class與 interface不同之處 abstract關鍵字不能省略)
 C錯在calculatePrice少abstract關鍵字 finalmethod用在這裡是OK的
 D錯在加了abstract關鍵字就不能再實作方法
 

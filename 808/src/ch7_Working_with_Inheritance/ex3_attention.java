@@ -1,6 +1,6 @@
 package ch7_Working_with_Inheritance;
 
-public class ex3 {
+public class ex3_attention {
 	static String args[] = {"lazy", "lion", "is", "always"};
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -44,6 +44,17 @@ elephant is always jumping
 
 E. Compilation fails
 
-my ans is C
+
+
+
+
+
+Ans is D
+
+題目執行的指令會編譯「Jump.java」，由於Jump類別有用public修飾，因此預設會執行Jump類別的main方法，
+並把「crazy elephant is always」作為main的參數。參數的索引值從0開始。
+main方法的args參數會遮蔽(shadow)掉Jump類別的args類別(靜態)變數。因此會輸出「elephant is always jumping」。
+
+
 
 */

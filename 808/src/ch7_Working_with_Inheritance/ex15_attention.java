@@ -1,6 +1,6 @@
 package ch7_Working_with_Inheritance;
 
-public class ex15 {
+public class ex15_attention {
 
 	 
 	 
@@ -9,8 +9,8 @@ public class ex15 {
 	        Base b2 = new DerivedA();
 	        Base b3 = new DerivedB();
 	        b1 = (Base) b3;
-	        Base b4 = (DerivedA) b3;
-	        
+	        Base b4 = (DerivedA) b3;//b3是DerivedB() 跟DerivedA()沒有繼承關係
+	                                //雖然編譯會過 但在runtime會跳轉型錯誤異常
 	        b1.test();
 	        b4.test();
 	    }
@@ -103,8 +103,9 @@ DerivedA
 E. A classcast Except ion is thrown at runtime.
 
 
-my ans is C
-incorrect,ans is E
+
+
+Ans is E
 
 note 
 DerivedA與DerivedB之間並沒有直接的繼承關西

@@ -44,6 +44,10 @@ D. A NullPointerException is thrown at runtime
 
 
 
+
+
+
+
 Ans is A
 
 根據java 8 api對Boolean建構式說明 當引數是String時
